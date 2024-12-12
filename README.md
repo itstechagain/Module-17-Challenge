@@ -1,31 +1,31 @@
-Social Network API
+# Social Network API
 
-Description
+## Description
 
 This project is a Social Network API built from scratch, allowing users to share their thoughts, react to friends' thoughts, and create a friend list. Using Express.js for routing and MongoDB with Mongoose for data storage, the application enables the creation, update, and deletion of users, thoughts, friends, and reactions.
 
-Table of Contents
-Installation
-Usage
-License
-Contributing
-Questions
-Demo Video Link
-Installation
-To get started, clone this repository and install the dependencies:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-bash
-Copy code
+## Installation
+```
 Clone this repository to your local machine:
 git clone https://github.com/yourusername/social-network-api.git
 
+git clone https://github.com/itstechagain/Module-8-Challenge.git
 Navigate to the project directory:
-cd social-network-api
+
+cd Module-8-Challenge
 
 Install the required dependencies using npm:
 npm install
-Usage
-To run the application:
+```
+
+## Usage
 
 Open a terminal and navigate to the project directory.
 Start the server using the command: npm start
@@ -37,24 +37,17 @@ Key API routes:
 /api/thoughts: Allows you to GET, POST, PUT, and DELETE thoughts.
 /api/users/:userId/friends/:friendId: Add or remove friends from a user's friend list.
 /api/thoughts/:thoughtId/reactions: Create and delete reactions to thoughts.
-License
-This project is not licensed.
 
-Contributing
-Currently, no contributions are required.
+## License
+![License] (This project is not licensed).
 
-Questions
-If you have any questions, feel free to reach out.
+## Contributing
+No contribution is required now.
 
-Github: yourusername
+## Questions
+What is my Github? [itstechagain#](https://github.com/itstechagain)
 
-Demo Video Link
-A walkthrough video demonstrating the functionality of this Social Network API can be found here. The video shows all acceptance criteria being met, including:
-
-Server startup
-Testing GET routes for users and thoughts
-Testing POST, PUT, and DELETE routes for users, thoughts, friends, and reactions
-
+## Demo Video Link
 
 
 
